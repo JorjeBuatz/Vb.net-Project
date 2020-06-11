@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SchoolManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:SchoolManagementSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SchoolManagementSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.CourseDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.DepartmentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.HallDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.StaffDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.StudentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.CourseRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.DepartmentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.HallRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.StaffRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.StudentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.CourseRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.DepartmentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.HallRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.StaffRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSet.StudentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.CourseTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.DepartmentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.HallTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.StaffTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.StudentTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SchoolManagementSystem.SchoolDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SchoolManagementSystem.SchoolDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SchoolManagementSystem.SchoolDatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(SchoolManagementSystem.SchoolDatabaseDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SchoolManagementSystem.SchoolDatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
